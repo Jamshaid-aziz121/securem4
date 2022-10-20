@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid #ccc; */
+  font-family: Montserrat;
+}
+.box-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  
+}
+.box-1 ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 30px;
+}
+
+.box-1 ul li {
+  padding: 20px;
+}
+
+.bg1 {
+  background-color: aquamarine;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aliceblue; */
+
+  height: 600px;
+  width: 100vw;
+  background: black;
+  overflow: hidden;
+  background: #c33764; /* fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(
+      rgba(29, 38, 113, 0.8),
+      rgba(195, 55, 100, 0.8)
+    ),
+    url("https://bit.ly/2rlzaXi");
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
+    url("https://bit.ly/2rlzaXi"); The least supported option.
+}
+.main div {
+  padding: 40px 0;
+  margin: auto;
+
+  width: 35%;
+  text-align: center;
+}
+.main div .btn {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main div .btn input {
+  border-radius: 100px;
+  padding: 10px;
+  min-width: 100px;
+}
+
+.main div .btn input.skye {
+  background-color: rgb(157, 135, 235);
+}
+
+.main div .btn input.gree {
+  background-color: yellow;
+}
+.main div p {
+  color: white;
+  line-height: 1.8;
+  padding: 20px 10px;
+}
+
+.main div h1 {
+  color: white;
+}
+
+.midsec ul {
+  padding: 40px 0;
+  justify-content: space-between;
+  display: flex;
+  list-style: none;
+
+  border-radius: 100%;
+}
+
+.bg2 {
+  background-color: #f2f3f7;
+}
+
+/* .midsec ul.c1 {
+
+    border-radius: 100%;
+} */
+
+.c1 {
+  padding: 40px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.oneline li {
+  display: flex;
+}
+
+.onelinespan {
+  padding: 40px;
+}
+
+.nsa {
+  background-color: #f2f3f7;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.nsa a {
+  border-radius: 50px;
+  /* border: gray 1px solid; */
+  padding: 35px;
+  margin: 50px 50px;
+  box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+  background-color:azure;
+  text-decoration: none;
+  color:black;
+  
+}
+
+a:hover {
+  background-color: yellow;
+}
+a:active {
+  background-color: aqua;
+}
+.cctv{
+  display: flex;
+  padding: 70px;
+}
+
+.cctv p{
+line-height: 1.6;
+font-size: 18px;
+}
+
+.acc h1{
+  margin-bottom: 20px;
+}
+.acc p{
+
+  /* border: #c33764 1px solid; */
+  width: 70%;
+  /* background-color: red; */
+}
+
+.right-sec h2{
+margin-bottom: 20px;
+
+}
+
+.right-sec p{
+  margin-bottom: 20px;
+}
+
+.right-sec li{
+  list-style: none;
+}
+
+.bg3{
+  background-color: #f2f3f7;
+}
+
+.cyber{
+  padding: 50px 0px; 
+}
+
+.cyber h1{
+
+  font-size:300%;
+  padding: 0 0 0 60px;  
+  /* box-shadow: 0 0 10px 10px; */
+
+}
+
+.cyber ul{
+
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+
+}
+
+.B1 {
+  width: 40%;
+  padding: 40px;
+  /* border: #c33764 2px solid; */
+  border-radius: 40px;
+  /* border-style: groove; */
+  box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+  display: flex;
+  justify-content: center;
+  background-color: azure;
+}
+
+.border .A .B1 a {
+
+  text-decoration: none;
+}
+.border .B .B1 a {
+
+  text-decoration: none;
+}
+
+.web {
+
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 0;
+
+}
+
+.web div {
+
+    padding: 20px;
+    /* border: 2px solid #c33764; */
+    border-radius: 35px;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    text-align: center;
+}
+
+.web div img {
+
+  height: 400px;
+  width: 500px;
+  border-radius: 40px;
+  object-fit: fit;
+
+}
+
+.web div img:hover {
+
+  scale: 1.1;
+  transition: all 0.3s;
+}
+
+.web div h1{
+
+  margin: 30px;
+}
+
+.cover h1 {
+  text-align: center;
+  padding: 30px 0;
+}
+
+
+.cover p {
+
+  padding: 10px 30px;
+  
+
+}
+
+.pgraph {
+  
+  line-height: 2.0;
+  padding: 40px 30px;
+  margin-bottom: 50px;
+  border-radius: 50px;
+  box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+
+}
+
+.pgraph div  {
+
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.hd h1 {
+  padding: 30px;
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.v-1 {
+  padding: 25px;
+  margin: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: 600px
+}
